@@ -5,8 +5,8 @@ const [username, setUsername] = useState("")
 
   return (
     <form>
-      <h1>hellos {username}</h1>
-      <p>Enter Namesx</p>
+      <h1>hello yolo {username}</h1>
+      <p>Enter Namesxf</p>
       <input type="text" onChange={e => setUsername(e.target.value)}></input>
     </form>
   )
